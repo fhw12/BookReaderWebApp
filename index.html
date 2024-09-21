@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BookReaderWebApp</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="modules/parser.js"></script>
 </head>
 <body>
     <main id="main">
         <h1>Choose a file:</h1>
-        <input type="file" name="" id="file" onchange="readFile(event)"><br><br>
+        <input type="file" name="" id="file" onchange="readFileEvent(event)"><br><br>
         <div id="text"></div>
     </main>
     <script src="main.js"></script>
